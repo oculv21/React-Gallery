@@ -4,7 +4,11 @@ class PhotoGallery extends Component {
     state = {};
 
     render() {
-        return
+        return(
+            <div className="photo-container">
+                <h2>Results</h2>
+            </div>
+        )
     }
 }
 

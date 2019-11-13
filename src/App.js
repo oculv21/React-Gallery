@@ -1,26 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 import APIKey from './config.js';
+
+import Search from './Search';
+import Nav from './Nav';
+import PhotoGallery from './PhotoGallery';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <Search />
+      <Nav />
+      <PhotoGallery />
     </div>
+      
   );
 }
 
