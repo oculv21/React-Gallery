@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+This webpage indexes Flickr using the Flickr API to display photos that match the search query.
+
 ## Available Scripts
 
 In the project directory, you can run:
